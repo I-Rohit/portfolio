@@ -1,0 +1,105 @@
+
+.project-page {
+    background-color: rgb(247, 234, 206); 
+    margin-top: 100px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .square-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    margin-right: 10px;
+  }
+  
+  .heading h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .project-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  width: 50%;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.left-section {
+  display: flex;
+  flex: 1; 
+  position: relative;
+}
+
+.vertical-rectangle {
+  width: 6px;
+  background-color: #007bff;
+  margin-right: 15px; 
+  position: absolute;
+  height: 50px;
+  top: 0;
+  bottom: 0;
+}
+
+.text-content {
+  margin-left: 25px; 
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.project-subheading {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+.project-description {
+  margin-top: 10px; 
+  font-size: 12px;
+  line-height: 1.4;
+  color: #555;
+}
+
+
+.right-section {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px; 
+}
+
+.project-images {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 4px; 
+}

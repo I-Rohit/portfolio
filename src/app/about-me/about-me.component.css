@@ -1,0 +1,142 @@
+.page-layout {
+    display: flex;
+    min-height: 150vh;
+    width: 100vw;
+    /* position: relative; */
+  }
+  
+  .colored-section {
+    flex: 0 0 40%; /* Fixed to 40% of the width */
+    background-color: rgb(247, 234, 206); 
+    /* height: 150%; */
+  }
+  
+  .white-section {
+    flex: 0 0 60%; /* Remaining 60% of the width */
+    background-color: white;
+    height: 150%;
+  }
+  .card-container {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+  }
+  .about-container {
+    margin-left: 15%;
+    margin-top: 25%;
+    width: 400px;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .about-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .designation-heading{
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: justify;
+  }
+  
+  .about-paragraph {
+    font-size: 1rem;
+    line-height: 2.2;
+    color: #555;
+    text-align: justify;
+  }
+  .card {
+    position: absolute;
+    top: 80%; 
+    left: 32%; 
+    transform: translate(-50%, -50%); 
+    width: 400px; 
+    height: 500px; 
+    background-color: rgb(245, 237, 222);;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .dp-circle{
+    margin-top: 10px; 
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #ddd; 
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+  }
+  .profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    
+  }
+  .name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .name span {
+    display: block;
+  }
+  
+  /* Divider Line */
+  .divider {
+    width: 20%;
+    height: 2px;
+    background-color: blue;
+    margin: 10px auto;
+  }
+  
+  /* Designation */
+  .designation {
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+  }
+  
+  /* Social Media Strip */
+  .social-media-strip {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0%;
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .social-media-strip a {
+    text-decoration: none;
+  }
+  
+  .social-icon {
+    font-size: 24px; 
+    color: #333; 
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .social-icon:hover {
+    color: #0077b5;
+  }
+  
